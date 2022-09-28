@@ -2,13 +2,14 @@
 import React from 'react'
 // import ValidForm from 'components/FormContact/ValidForm'
 import InfoAdresse from 'components/InfoAdresse/index'
-import ContactForm from 'components/FormContact/ContactForm'
+import ValidateForm from 'components/FormContact/ValidForm'
+
 
 function Contact() {
   return (
     <div>
        <InfoAdresse />
-       <ContactForm/>
+       <ValidateForm />
     </div>
   )
 }
