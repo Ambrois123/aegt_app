@@ -1,6 +1,5 @@
 {
   "name": "church_app",
-  "homepage": "https://aegtoulouse.fr/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

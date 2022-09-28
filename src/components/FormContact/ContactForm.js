@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import 'components/FormContact/FormContact.css'
-import emailjs from '@emailjs/browser';
+
+
 
 export default function ContactUs() {
   const form = useRef();
@@ -8,15 +9,7 @@ export default function ContactUs() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-        'service_h3lw43k', 
-        'template_ii5eexl', form.current, 
-        'HM2P1nGXaXmNlmjMr')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    
 
       //clear all input
       e.target.reset();
